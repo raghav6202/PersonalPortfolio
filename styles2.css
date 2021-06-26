@@ -78,9 +78,11 @@ list-style: none;
 
 .navigator-head
 {
+    padding-left: 2rem ;
+    padding-top: 2.5rem;
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
    
 }
 
@@ -136,17 +138,17 @@ text-align: center;
 .foot
 {
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 3rem;
     border-bottom-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     text-align: center;
 }
 
 .foot-head{
-
+padding-top: 1rem;
     text-align: center;
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: large;
 
 }
