@@ -46,14 +46,17 @@ body
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
+    margin: 1rem 1rem 1rem 0rem
 
 }
 .secondary-link
 {
-
-    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    /* background-color: var(--primary-color); */
+ 
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    color: yellow;
+    margin: 1rem 1rem 1rem 0rem
 
 
 }
@@ -135,6 +138,18 @@ text-align: center;
     background-color:lavender;
 }
 
+.article-1
+{
+    padding-left: 1rem;
+    display: block;
+}
+
+.article-button
+{
+    padding-top: 1rem;
+padding-bottom: 2rem;
+}
+
 .foot
 {
     background-color: var(--primary-color);
@@ -163,4 +178,11 @@ padding-top: 1rem;
     text-align: center;
     margin: auto;
     padding-inline-start: 0px;
+}
+
+.foot-small
+{
+    text-align: right;
+    color: white;
+    padding-top: 1rem;
 }
