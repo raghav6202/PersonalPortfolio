@@ -2,7 +2,7 @@
 
 :root{
 
-    --primary-color: #FF6363;
+    --primary-color: #6EE7B7;
     --secondary-color: grey;
 
 }
@@ -113,7 +113,7 @@ margin: auto;
 }
 .hero-text
 {
-    font-size: large;
+    /* font-size: large; */
     font-weight: bold;
     color: var(--secondary-color);
   text-align: center;
@@ -128,7 +128,7 @@ margin: auto;
 text-align: center;
 }
 
-.s2
+.s1
 {
     background-color:lavender;
 }
@@ -138,6 +138,7 @@ text-align: center;
     background-color: var(--primary-color);
     padding: 2rem;
     border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     text-align: center;
 }
 
@@ -146,6 +147,7 @@ text-align: center;
     text-align: center;
     color: white;
     font-weight: bolder;
+    font-size: large;
 
 }
 
