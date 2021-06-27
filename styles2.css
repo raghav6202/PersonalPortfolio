@@ -29,7 +29,7 @@ body
 .link{
     text-decoration: none; 
     /* to remove the underline and other decor */
-    padding: 1rem 1rem ;
+    padding: 1rem 0.5rem 0.5rem 1rem ;
 
     /*padding-bottom
       padding-left
