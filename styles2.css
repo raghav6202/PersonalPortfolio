@@ -69,7 +69,7 @@ list-style: none;
 .inline-text
 {
     display: inline;
-    padding: 0rem 1rem 0rem ;
+    padding: 0rem 0.5rem 0rem ;
 }
 
 .navigator
@@ -173,18 +173,18 @@ padding-bottom: 2rem;
 .foot
 {
     background-color: var(--primary-color);
-    padding: 3rem;
+    padding: 2rem;
     border-bottom-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     text-align: center;
 }
 
 .foot-head{
-padding-top: 1rem;
+padding-top: 4rem 1rem;
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size:x-large;
+    font-size:large;
 
 }
 
