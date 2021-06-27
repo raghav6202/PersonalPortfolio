@@ -4,6 +4,7 @@
 
     --primary-color: #6EE7B7;
     --secondary-color: grey;
+    --tertiary-color:black;
 
 }
 
@@ -108,13 +109,27 @@ list-style: none;
 .hero
 {
     padding: 2rem;
+    
+    text-align: center;
 }
+ 
+
 .hero-image
 {
+ padding-right: 5rem;
+ /* padding: auto; */
 max-width: 350px;
 display: block;
 margin: auto;
 
+}
+.hero-image1
+{
+    padding:auto;
+    max-width: 350px;
+    /* max-height: 350px; */
+    display: block;
+    margin: auto;  
 }
 .hero-text
 {
@@ -140,8 +155,13 @@ text-align: center;
 
 .article-1
 {
+    text-align: center;
+    max-width: 900px;
     padding-left: 1rem;
     display: block;
+    border: solid var(--tertiary-color);
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 .article-button
@@ -164,7 +184,7 @@ padding-top: 1rem;
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: large;
+    font-size:x-large;
 
 }
 
