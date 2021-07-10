@@ -47,7 +47,10 @@ body
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
-    margin: 1rem 1rem 1rem 0rem
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    padding: 1rem;
+    
 
 }
 .secondary-link
@@ -57,8 +60,9 @@ body
  
     color: var(--primary-color);
     border-radius: 0.5rem;
-    margin: 1rem 1rem 1rem 0rem
-
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    padding: 1rem;
 
 }
 .no-bullet
@@ -199,11 +203,13 @@ padding-top: 2rem;
     margin: auto;
     padding-inline-start: 0px;
     padding: auto;
+    
 }
 
 .foot-small
 {
     text-align: right;
     color: white;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
+
